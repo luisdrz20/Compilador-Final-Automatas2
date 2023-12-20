@@ -1,0 +1,24 @@
+Programa calificaciones{
+int num,i;
+float suma,promedio,calificacion,a;
+
+print ["Ingresa el numero de calificaciones: "];
+read (num);
+
+suma=0;
+
+for(i=1;i<=num;i++){
+print ["Ingresa la calificacion #"+i+":"];
+read(calificacion);
+
+a=100;
+if (calificacion>a){
+print ["Por favor ingresa una calificacion valida"];
+i=i-1;
+}else {
+suma =suma+calificacion;
+}
+}
+promedio=suma/num;
+print ["El promedio de las "+num+" calificaciones es: "+promedio];
+}

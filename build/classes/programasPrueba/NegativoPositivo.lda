@@ -1,0 +1,16 @@
+Programa negativos
+{
+int num,a;
+
+print ["Ingresa un numero: "];
+read(num);
+a=0;
+
+if(num>a)
+{
+print ["El numero es positivo"];
+}else 
+{
+print ["El numero es negativo"];
+}
+}

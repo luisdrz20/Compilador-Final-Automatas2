@@ -1,0 +1,15 @@
+Programa factorial 
+{
+int num,i,factorial,a;
+
+for(i=1;i<=num;i++)
+{
+if(a==a){
+
+if (a==a){
+
+}
+}
+}
+
+}

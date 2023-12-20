@@ -1,0 +1,16 @@
+Programa factorial 
+{
+int num,i,factorial;
+factorial=1;
+
+print ["Proporciona numero para factorial: "];
+read(num);
+
+for(i=1;i<=num;i++)
+{
+factorial=factorial*i;
+}
+
+print ["El facttorial de: "+num+" es "+factorial];
+
+}
